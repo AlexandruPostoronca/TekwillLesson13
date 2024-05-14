@@ -1,0 +1,35 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: It outputs one line "Base class".
+    is_correct: false
+  - text: It outputs two lines. The first one is "Derived class". The second one is
+      "Base class".
+    is_correct: true
+  - text: It outputs two lines. The first one is "Base class". The second one is "Derived
+      class".
+    is_correct: false
+  - text: It outputs one line "Derived class".
+    is_correct: false
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am4BU5WKavemmrYTYXmzh/WuQfzHR3doZI/3hHs82WT1cfu+S8Hbqcvqsd43cOU6Yw4tKU2eBBAacR/guEJ9XR/DWe7UxqJODhdAO/zUEx00FiLkjnN2tkLxBWwLWug1KXQ==
+    learner_created: false
+  - name: src/BaseClass.java
+    visible: true
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: true
+  - name: src/DerivedClass.java
+    visible: true
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 25 Apr 2024 20:15:21 UTC"
+record: -1
+selected_options:
+  - 1
+custom_name: Runtime polymorphic behavior
+local_check: true

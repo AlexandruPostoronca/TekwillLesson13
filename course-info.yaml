@@ -1,0 +1,23 @@
+type: marketplace
+title: 13. Polymorphism and Object class
+language: English
+summary: |-
+  This is an introductory course about Polymorphism and Object class in Java.
+    - 01. Referencing subclass objects
+    - 02. Polymorphism
+    - 03. The Object class
+    - 04. toString()
+    - 05. hashCode() and equals()
+programming_language: Java
+programming_language_version: 17
+content:
+  - 01. Referencing subclass objects
+  - 02. Polymorphism
+  - 03. The Object class
+  - 04. toString()
+  - 05. hashCode() and equals()
+mode: Study
+environment_settings:
+  jvm_language_level: JDK_17
+vendor:
+  name: Alexandru Umaneț

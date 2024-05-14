@@ -1,0 +1,35 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "Person{name=Khon}"
+    is_correct: true
+  - text: "Person{name='Khon,salary=10000000}"
+    is_correct: false
+  - text: "Employee{name='Khon,salary=10000000}"
+    is_correct: false
+  - text: Something like Employee@5f205aa
+    is_correct: false
+  - text: "Employee{name=Khon}"
+    is_correct: false
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am4BU5WKavemmrYTYXmzh/WuQfzHR3doZI/3hHs82WT1cfu+S8Hbqcvqsd43cOU6Yw4tKU2eBBAacR/guEJ9XR/DWe7UxqJODhdAO/zUEx00FiLkjnN2tkLxBWwLWug1KXQ==
+    learner_created: false
+  - name: src/Person.java
+    visible: true
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: true
+  - name: src/Employee.java
+    visible: true
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 25 Apr 2024 20:43:06 UTC"
+record: -1
+selected_options:
+  - 0
+custom_name: Class hierarchy
+local_check: true

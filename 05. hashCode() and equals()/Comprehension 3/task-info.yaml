@@ -1,0 +1,33 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: true false false true
+    is_correct: false
+  - text: false true false true
+    is_correct: false
+  - text: false true true false
+    is_correct: false
+  - text: true true false true
+    is_correct: true
+  - text: true true true true
+    is_correct: false
+  - text: false true false false
+    is_correct: false
+files:
+  - name: src/Main.java
+    visible: true
+    encrypted_text: a3Oc3sOKihNm0o8Cls6Am4BU5WKavemmrYTYXmzh/WuQfzHR3doZI/3hHs82WT1cfu+S8Hbqcvqsd43cOU6Yw4tKU2eBBAacR/guEJ9XR/DWe7UxqJODhdAO/zUEx00FiLkjnN2tkLxBWwLWug1KXQ==
+    learner_created: false
+  - name: src/BlackBox.java
+    visible: true
+    encrypted_text: BPrPxsoPO0ddRfXxWyDgbA==
+    learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 03 May 2024 21:04:33 UTC"
+record: -1
+selected_options:
+  - 3
+custom_name: Comprehension
+local_check: true
